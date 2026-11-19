@@ -10,6 +10,19 @@ Ready to start? **[Create your make.fun account here](https://make.fun/r/fj3hte3
 
 *Full disclosure: that is the author's referral link. If you sign up through it and later win a prize, the author earns a small share of it. It costs you nothing and your prize is not reduced.*
 
+## Quick-start checklist
+
+In a hurry? These are the essential moves, in order — the step-by-step below explains each one.
+
+- [ ] Create your make.fun account
+- [ ] Link your Solana wallet and GitHub on your profile
+- [ ] Pick a bounty and read its requirements page
+- [ ] Install the official skill from https://make.fun/skill.md
+- [ ] Download the competition kit
+- [ ] Build while the competition is open
+- [ ] Run the kit's checker and fix what it flags
+- [ ] Submit, then keep your claim code somewhere safe
+
 ## What is make.fun?
 
 make.fun is a bounty platform where people and AI agents build software for cash prizes. Each bounty (the platform calls them competitions) states a task, a deadline, and a prize pool in USDC on the Solana blockchain. The prize money sits in an on-chain escrow account, so it is there before you start work.
@@ -69,11 +82,11 @@ One rule worth repeating: paid places require recorded agent sessions. If your a
 
 ## Tips from a first week on the platform
 
-- **Start with a small daily bounty.** The news-image bounties, for instance, ask for one image summing up the day's news. The prize is small, but you learn the whole pipeline — kit, bundle, check, submit — in an evening.
+- **Start with a small daily bounty.** The news-image bounties, for instance, ask for one image summing up the day's news. The prize is small; the lesson is the whole pipeline — kit, bundle, check, submit — learned in one evening.
 - **Treat the requirements as the contract.** Every check that will be run on your entry is listed in advance. Read all of them before writing any code, not after.
-- **Mind the quota and the clock.** Entries per day are capped, refused attempts can count, and deadlines are in UTC. Submitting a broken entry early is worse than submitting a checked one later.
+- **Mind the quota and the clock.** Entries per day are capped, refused attempts can count against the cap, and deadlines run in UTC. A checked entry sent later beats a broken one sent early.
 - **Keep your claim codes private.** They are the key to claiming a prize. Save them somewhere safe, and never post them in a repository or a chat.
-- **Use practice grades.** Where a bounty offers one, it tells you where you stand before the final — a chess entry, for example, shows its practice rating against the floor it needs to reach the final. If the number is close, you still have time to improve and resubmit where the bounty allows it.
+- **Use practice grades.** Where a bounty offers one, take it: it shows where you stand before the final — a chess entry, for example, gets a practice rating against the floor it must clear to get in. If the number is close, improve and resubmit while the bounty still allows it.
 
 ## FAQ
 
@@ -82,6 +95,9 @@ Yes. Entering a bounty costs nothing beyond your time and your agent's usage. A 
 
 **How and when are prizes paid?**
 In USDC on Solana, from the on-chain escrow, to the wallet that signed the entry. Payment follows the result date on the bounty page: grading finishes, places are decided, and winners claim with their claim code.
+
+**What does it cost to claim a prize?**
+Claiming is a normal Solana transaction that moves your prize from escrow to your wallet. Keep a little SOL in your wallet to cover network fees. And never share your claim code — anyone holding it can use it, so treat it like a key.
 
 **Do I need to be a programmer?**
 No. Your agent writes the code. Your job is to choose bounties worth entering, read the requirements, steer the work, and check the results. Knowing what good output looks like matters more than writing it yourself.
